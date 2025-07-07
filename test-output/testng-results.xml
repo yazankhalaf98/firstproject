@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-03T07:36:35 PDT" name="Default suite" finished-at="2025-07-03T07:36:44 PDT" duration-ms="9312">
+  <suite started-at="2025-07-07T10:37:43 PDT" name="Default suite" finished-at="2025-07-07T10:38:02 PDT" duration-ms="19322">
     <groups>
     </groups>
-    <test started-at="2025-07-03T07:36:35 PDT" name="Default test" finished-at="2025-07-03T07:36:44 PDT" duration-ms="9312">
-      <class name="Login.sadscenarioLogin">
-        <test-method is-config="true" signature="setup()[pri:0, instance:Login.sadscenarioLogin@68ead359]" started-at="2025-07-03T07:36:35 PDT" name="setup" finished-at="2025-07-03T07:36:37 PDT" duration-ms="2076" status="PASS">
+    <test started-at="2025-07-07T10:37:43 PDT" name="Default test" finished-at="2025-07-07T10:38:02 PDT" duration-ms="19322">
+      <class name="Login.LoginTest">
+        <test-method is-config="true" signature="mysetup()[pri:0, instance:Login.LoginTest@d3957fe]" started-at="2025-07-07T10:37:43 PDT" name="mysetup" finished-at="2025-07-07T10:37:45 PDT" duration-ms="2135" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="create_Account()[pri:0, instance:Login.sadscenarioLogin@68ead359]" started-at="2025-07-03T07:36:37 PDT" name="create_Account" finished-at="2025-07-03T07:36:44 PDT" duration-ms="6752" status="PASS">
+        </test-method> <!-- mysetup -->
+        <test-method signature="mytestthefrom()[pri:0, instance:Login.LoginTest@d3957fe]" started-at="2025-07-07T10:37:45 PDT" name="mytestthefrom" finished-at="2025-07-07T10:38:02 PDT" duration-ms="16896" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- create_Account -->
-        <test-method is-config="true" signature="closingTheBrowser()[pri:0, instance:Login.sadscenarioLogin@68ead359]" started-at="2025-07-03T07:36:44 PDT" name="closingTheBrowser" finished-at="2025-07-03T07:36:44 PDT" duration-ms="394" status="PASS">
+        </test-method> <!-- mytestthefrom -->
+        <test-method is-config="true" signature="closingTheBrowser()[pri:0, instance:Login.LoginTest@d3957fe]" started-at="2025-07-07T10:38:02 PDT" name="closingTheBrowser" finished-at="2025-07-07T10:38:02 PDT" duration-ms="167" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closingTheBrowser -->
-      </class> <!-- Login.sadscenarioLogin -->
+      </class> <!-- Login.LoginTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

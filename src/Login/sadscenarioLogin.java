@@ -75,7 +75,7 @@ public class sadscenarioLogin {
 		company1.sendKeys(company[randomCompanyIndex]);
 
 	}
-	//close website
+
 
 	@AfterTest
 	public void closingTheBrowser() {
