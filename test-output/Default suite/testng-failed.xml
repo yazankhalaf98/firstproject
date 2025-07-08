@@ -6,8 +6,8 @@
       <class name="Login.LoginTest">
         <methods>
           <include name="mytestthefrom"/>
-          <include name="closingTheBrowser"/>
           <include name="mysetup"/>
+          <include name="closingTheBrowser"/>
         </methods>
       </class> <!-- Login.LoginTest -->
     </classes>

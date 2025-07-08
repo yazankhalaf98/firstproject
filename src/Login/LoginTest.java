@@ -42,8 +42,13 @@ public class LoginTest {
 		WebElement CityInput = driver.findElement(By.name("city"));
 		WebElement country = driver.findElement(By.id("AccountFrm_country_id"));
 		WebElement State = driver.findElement(By.id("AccountFrm_zone_id"));
-		WebElement ZibCode = driver.findElement(By.id( "AccountFrm_postcode"));
-
+		WebElement ZibCode = driver.findElement(By.id("AccountFrm_postcode"));
+		WebElement loginName = driver.findElement(By.id("AccountFrm_loginname"));
+		WebElement Password = driver.findElement(By.id("AccountFrm_password"));
+		WebElement PasswordConfirm = driver.findElement(By.id("AccountFrm_confirm"));
+		WebElement Subscribe = driver.findElement(By.id("AccountFrm_newsletter1"));
+		WebElement Agreebutton = driver.findElement(By.name("agree"));
+		WebElement ContinueButton = driver.findElement(By.xpath("//button[@title='Continue']"));
 
 		Thread.sleep(3000);
 
@@ -68,7 +73,9 @@ public class LoginTest {
 		String Adrees1 = ("Hay_nazal");
 		String City = ("Amman");
 		String zibcode = ("10888");
-
+		String loginname = ("yazankh122");
+		String password = ("yazankh1223");
+		String asswordconfirm = ("yazankh1223");
 
 		Thread.sleep(3000);
 
@@ -84,7 +91,7 @@ public class LoginTest {
 		CityInput.sendKeys(City);
 		ZibCode.sendKeys(zibcode);
 
-		Thread.sleep(2000);
+		Thread.sleep(5000);
 
 		Select myselectforCountry = new Select(country);
 		int randomCountry = rand.nextInt(1, 240);
@@ -98,9 +105,17 @@ public class LoginTest {
 		Select myselectforState = new Select(State);
 		int randomState = rand.nextInt(1, numberofState);
 		myselectforState.selectByIndex(randomState);
-		
+
 		Thread.sleep(2000);
 
+		loginName.sendKeys(loginname);
+		Password.sendKeys(password);
+		PasswordConfirm.sendKeys(password);
+		Subscribe.click();
+		Agreebutton.click();
+
+		ContinueButton.click();
+		Thread.sleep(7000);
 
 	}
 
